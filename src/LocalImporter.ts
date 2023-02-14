@@ -10,7 +10,6 @@ export class LocalImporter implements IImportable {
         this._database = database
     }
 
-
     loadPlaylist(): Playlist {
         const database = require("./database.json")
         console.log(`Your playlist at location ${this._database} will be loaded`)
